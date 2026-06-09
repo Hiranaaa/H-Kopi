@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hi Kopi</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        ><i class="fa-solid fa-mug-hot"></i>H<span>!</span></a
+      >
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#menu">Our Menu</a>
+        <a href="#location">locations</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Do you wanna go grab
+          <span style="color: #5eb413">Matcha</span>
+          <span style="color: #fff">or</span>
+          <span style="color: #6b4a3a">Coffee</span>?
+        </h1>
+
+        <p>
+          Enjoy the perfect blend of coffee and matcha crafted with passion for
+          every moment.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="cta">Order Now</a>
+          <a href="#about" class="cta-outline">Learn More</a>
+        </div>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="about-container">
+        <div class="about-image">
+          <img src="img/tentang-kami.jpg" alt="About Us" />
+        </div>
+
+        <div class="about-text">
+          <h3>Why Choose Our Coffee?</h3>
+
+          <p>
+            We believe that coffee is more than just a drink. It is an
+            experience that connects people, culture, and passion in every cup.
+          </p>
+
+          <p>
+            Our beans are carefully selected from the best Indonesian coffee
+            regions and roasted to deliver a rich and authentic flavor.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat">
+              <h4>50+</h4>
+              <p>Menu Variants</p>
+            </div>
+
+            <div class="stat">
+              <h4>10K+</h4>
+              <p>Happy Customers</p>
+            </div>
+
+            <div class="stat">
+              <h4>15+</h4>
+              <p>Coffee Beans</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2>Our<span> Menu</span></h2>
+
+      <div class="menu-wrapper">
+        <button class="arrow left" id="left-btn">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="menu-slider" id="menu-slider">
+          <div class="menu-card">
+            <img src="img/menu/1.jpg" alt="" />
+            <h3>COFFEE LATTE</h3>
+            <p class="price">IDR 25,000</p>
+            <button class="cart-btn">ADD TO CART</button>
+          </div>
+
+          <div class="menu-card">
+            <img src="img/menu/2.jpg" alt="" />
+            <h3>MATCHA LATTE</h3>
+            <p class="price">IDR 35,000</p>
+            <button class="cart-btn">ADD TO CART</button>
+          </div>
+
+          <div class="menu-card">
+            <img src="img/menu/3.jpg" alt="" />
+            <h3>MOCHA</h3>
+            <p class="price">IDR 35,000</p>
+            <button class="cart-btn">ADD TO CART</button>
+          </div>
+
+          <div class="menu-card">
+            <img src="img/menu/4.jpg" alt="" />
+            <h3>MATCHA</h3>
+            <p class="price">IDR 30,000</p>
+            <button class="cart-btn">ADD TO CART</button>
+          </div>
+          <div class="menu-card">
+            <img src="img/menu/5.jpg" alt="" />
+            <h3>AMERICANO</h3>
+            <p class="price">IDR 25,000</p>
+            <button class="cart-btn">ADD TO CART</button>
+          </div>
+        </div>
+
+        <button class="arrow right" id="right-btn">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Menu Section End -->
+
+    <!-- Location Section Start -->
+    <section id="location" class="location">
+      <h2><span>Our</span> Store</h2>
+
+      <div class="location-container">
+        <!-- Store 1 -->
+        <div class="location-card">
+          <img src="img/location-1.png" alt="Braga" />
+          <h3>Braga</h3>
+
+          <p class="address">
+            Jl. Braga 88-58, Braga, Kec. Sumur Bandung, Kota Bandung, Jawa Barat
+            40111
+          </p>
+
+          <a
+            href="https://maps.app.goo.gl/UsJR4VE7gKUPTH568"
+            target="_blank"
+            class="maps-btn"
+          >
+            See on Google Maps</a
+          >
+          <p class="time">10.00-22.00</p>
+        </div>
+
+        <!-- Store 2 -->
+        <div class="location-card">
+          <img src="img/location-2.png" alt="Jl. Malioboro" />
+          <h3>Jl. Malioboro</h3>
+
+          <p class="address">
+            Sosromenduran, Gedong Tengen, Yogyakarta City, Special Region of
+            Yogyakarta
+          </p>
+
+          <a
+            href="https://maps.app.goo.gl/AHazDosfd2rV2TDX8"
+            target="_blank"
+            class="maps-btn"
+          >
+            See on Google Maps</a
+          >
+          <p class="time">10.00-22.00</p>
+        </div>
+      </div>
+    </section>
+    <!-- Location Section End -->
+
+    <!-- News Section Start -->
+    <section id="news" class="news">
+      <div class="news-header">
+        <div class="title">
+          <h2>NEWS</h2>
+          <p>STAY INFORMED WITH OUR LATEST INSIGHT</p>
+        </div>
+
+        <div class="news-arrows">
+          <button id="news-left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button id="news-right">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="news-slider" id="news-slider">
+        <div class="news-card">
+          <img src="img/news/1.jpg" alt="" />
+          <p class="date">25 Feb 2026</p>
+          <h3>TOP NEWS: I LOVE MATCHA</h3>
+          <p class="desc">gimme some matcha...</p>
+          <a href="#" class="read-more">READ MORE ></a>
+        </div>
+
+        <div class="news-card">
+          <img src="img/news/2.jpg" alt="" />
+          <p class="date">28 Jan 2026</p>
+          <h3>NEWSWEEK: NEED CAFEIN</h3>
+          <p class="desc">Click here to read the full article on Newsweek...</p>
+          <a href="#" class="read-more">READ MORE ></a>
+        </div>
+
+        <div class="news-card">
+          <img src="img/news/3.jpg" alt="" />
+          <p class="date">10 Jun 2025</p>
+          <h3>CRAFTED BY NATURE: LOVEE MATCHAAAAAAAA</h3>
+          <p class="desc">Click here to read</p>
+          <a href="#" class="read-more">READ MORE ></a>
+        </div>
+        <div class="news-card">
+          <img src="img/news/4.jpg" alt="" />
+          <p class="date">10 Jun 2025</p>
+          <h3>CRAFTED BY NATURE: MATCHA AND YAP</h3>
+          <p class="desc">
+            We believe that good matcha can reduce my good project ...
+          </p>
+          <a href="#" class="read-more">READ MORE ></a>
+        </div>
+      </div>
+    </section>
+    <!-- News Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Contact</span> Us</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque,
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7921.5386924147015!2d107.609031!3d-6.91815555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6255268e897%3A0x5c47c330bb700956!2sBraga%2C%20Kec.%20Sumur%20Bandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1772031636332!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Telephone" />
+          </div>
+          <button type="submit" class="btn">Submit Order</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="footer-top">
+        <h2 class="footer-logo">
+          <i class="fa-solid fa-mug-hot"></i> H<span>!</span> Kopi
+        </h2>
+
+        <p class="footer-desc">
+          A cozy place for coffee and matcha lovers. Experience authentic
+          flavors crafted with passion.
+        </p>
+
+        <div class="footer-social">
+          <a href="#"><i data-feather="instagram"></i></a>
+          <a href="#"><i data-feather="twitter"></i></a>
+          <a href="#"><i data-feather="facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-middle">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Product</a>
+        <a href="#location">Location</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Hi Kopi. Created by Fahira Febriana</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
